@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="base_deep_link">pecode://pecodetest/</string>
+    <string name="create_new_notification">Create new notification</string>
+    <string name="notif_title">Chat heads active</string>
+    <string name="notif_description">Notification %d</string>
+    <string name="notif_channel_name">Fragment notifications</string>
+    <string name="add_button">Add button</string>
+    <string name="remove_button">Remove button</string>
+</resources>

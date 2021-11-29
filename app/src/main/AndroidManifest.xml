@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pecodetest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pecode_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pecode_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PecodeTestTask">
+        <activity
+            android:name="com.app.pecodetest.ui.notifactivity.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="pecodetest"
+                    android:scheme="pecode" />
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
